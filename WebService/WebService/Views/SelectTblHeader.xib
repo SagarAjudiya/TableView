@@ -10,8 +10,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" ambiguous="YES" id="iN0-l3-epB" customClass="SelectTblHeader" customModule="WebService" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="365" height="135"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SelectTblHeader" customModule="WebService" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="384" height="41"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Th7-TP-B1a">
@@ -41,7 +41,7 @@
                 <constraint firstItem="lCE-jD-3RG" firstAttribute="centerY" secondItem="Th7-TP-B1a" secondAttribute="centerY" id="edx-mM-uQe"/>
                 <constraint firstItem="Th7-TP-B1a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" placeholder="YES" id="f8W-6K-ZTI"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="lCE-jD-3RG" secondAttribute="trailing" constant="16" id="ifZ-jc-cyT"/>
-                <constraint firstAttribute="bottom" secondItem="Th7-TP-B1a" secondAttribute="bottom" constant="8" id="lUh-lw-vpk"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Th7-TP-B1a" secondAttribute="bottom" constant="8" id="lUh-lw-vpk"/>
                 <constraint firstItem="Th7-TP-B1a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="z6I-ZV-0Cq"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -49,7 +49,7 @@
                 <outlet property="btnSelect" destination="Th7-TP-B1a" id="mHC-uv-14e"/>
                 <outlet property="lblTitle" destination="lCE-jD-3RG" id="6Cb-LC-Xwi"/>
             </connections>
-            <point key="canvasLocation" x="21" y="-385"/>
+            <point key="canvasLocation" x="35.114503816793892" y="-418.66197183098592"/>
         </view>
     </objects>
     <resources>
