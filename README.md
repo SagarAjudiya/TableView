@@ -1,2 +1,2 @@
 # iOS
-table view with stepper
+Table view with stepper value change
